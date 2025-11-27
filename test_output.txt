@@ -1,0 +1,91 @@
+
+============================================================
+Testing Hyperspectral Dataset Loader
+============================================================
+
+============================================================
+Loading Salinas Dataset
+============================================================
+Loading Salinas_corrected.mat (25.32 MB)...
+  Keys in file: ['salinas_corrected']
+Loading Salinas_gt.mat (0.00 MB)...
+  Keys in file: ['salinas_gt']
+  Data cube shape: (512, 217, 204)
+  Ground truth shape: (512, 217)
+  Data type: int16
+  Value range: [-11.00, 9207.00]
+  Total pixels: 111,104
+  Labeled pixels: 54,129 (48.7%)
+  Background pixels removed: 56,975
+Converting to DataFrame format...
+  Creating 54,129 samples Î 204 bands = 11,042,316 rows
+  DataFrame created: 11,042,316 rows
+  Classes: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16)]
+  Class distribution:
+    Class 1 (Brocoli_green_weeds_1): 2,009 samples
+    Class 2 (Brocoli_green_weeds_2): 3,726 samples
+    Class 3 (Fallow): 1,976 samples
+    Class 4 (Fallow_rough_plow): 1,394 samples
+    Class 5 (Fallow_smooth): 2,678 samples
+    Class 6 (Stubble): 3,959 samples
+    Class 7 (Celery): 3,579 samples
+    Class 8 (Grapes_untrained): 11,271 samples
+    Class 9 (Soil_vinyard_develop): 6,203 samples
+    Class 10 (Corn_senesced_green_weeds): 3,278 samples
+    Class 11 (Lettuce_romaine_4wk): 1,068 samples
+    Class 12 (Lettuce_romaine_5wk): 1,927 samples
+    Class 13 (Lettuce_romaine_6wk): 916 samples
+    Class 14 (Lettuce_romaine_7wk): 1,070 samples
+    Class 15 (Vinyard_untrained): 7,268 samples
+    Class 16 (Vinyard_vertical_trellis): 1,807 samples
+============================================================
+Salinas Dataset Loaded Successfully!
+============================================================
+
+[OK] Salinas loaded: 54,129 samples, 204 bands
+
+
+============================================================
+Loading Indian Pines Dataset
+============================================================
+Loading Indian_pines_corrected.mat (5.68 MB)...
+  Keys in file: ['indian_pines_corrected']
+Loading Indian_pines_gt.mat (0.00 MB)...
+  Keys in file: ['indian_pines_gt']
+  Data cube shape: (145, 145, 200)
+  Ground truth shape: (145, 145)
+  Data type: uint16
+  Value range: [955.00, 9604.00]
+  Total pixels: 21,025
+  Labeled pixels: 10,249 (48.7%)
+  Background pixels removed: 10,776
+Converting to DataFrame format...
+  Creating 10,249 samples Î 200 bands = 2,049,800 rows
+  DataFrame created: 2,049,800 rows
+  Classes: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16)]
+  Class distribution:
+    Class 1 (Alfalfa): 46 samples
+    Class 2 (Corn-notill): 1,428 samples
+    Class 3 (Corn-mintill): 830 samples
+    Class 4 (Corn): 237 samples
+    Class 5 (Grass-pasture): 483 samples
+    Class 6 (Grass-trees): 730 samples
+    Class 7 (Grass-pasture-mowed): 28 samples
+    Class 8 (Hay-windrowed): 478 samples
+    Class 9 (Oats): 20 samples
+    Class 10 (Soybean-notill): 972 samples
+    Class 11 (Soybean-mintill): 2,455 samples
+    Class 12 (Soybean-clean): 593 samples
+    Class 13 (Wheat): 205 samples
+    Class 14 (Woods): 1,265 samples
+    Class 15 (Buildings-Grass-Trees-Drives): 386 samples
+    Class 16 (Stone-Steel-Towers): 93 samples
+============================================================
+Indian Pines Dataset Loaded Successfully!
+============================================================
+
+[OK] Indian Pines loaded: 10,249 samples, 200 bands
+
+============================================================
+Testing Complete!
+============================================================
